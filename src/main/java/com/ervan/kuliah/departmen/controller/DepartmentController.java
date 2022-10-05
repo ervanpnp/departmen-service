@@ -29,7 +29,7 @@ public class DepartmentController {
     
     @PostMapping("/")
     public Department saveDepartment(@RequestBody  Department department){
-        log.info("inside saveDepartment method of DepartmentController"); 
+        log.info("Method saveDepartment pada DepartmentController"); 
         return departmentService.saveDepartment(department);
     }
     
